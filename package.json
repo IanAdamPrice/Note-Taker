@@ -19,5 +19,8 @@
   "homepage": "https://github.com/IanAdamPrice/Note-Taker#readme",
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
   }
 }
