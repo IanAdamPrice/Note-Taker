@@ -1,7 +1,7 @@
 # Note Taker 
 
 ## Visual Demo
-![Note-Taker demo]()
+![Note-Taker demo](https://github.com/IanAdamPrice/Note-Taker/blob/main/visuals/Note%20Taker.gif?raw=true)
 ## Description
 Note Taker is a web app that allows the user to create, save, and delete notes. The app uses Express.js that saves and retrieves note data from a JSON file.
 
