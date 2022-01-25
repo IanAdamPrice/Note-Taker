@@ -2,14 +2,13 @@ const express = require('express');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
-const htmlRoutes = require('./routes/htmlRoutes');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-app.use('/', htmlRoutes);
-
+require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
 
 
 app.listen(PORT, () => {
